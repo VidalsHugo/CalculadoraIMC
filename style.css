@@ -1,0 +1,112 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    color: rgb(226, 173, 27);
+}
+
+
+.container{
+    margin: 0 auto;
+    margin-top: 150px;
+    background-color: rgb(226, 173, 27);
+    width: 350px;
+    height: 600px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.615);
+    
+}
+
+.title{
+    color: black;
+    margin: 10px;
+    padding-top: 10px;
+    display: block;
+    text-align: center;
+}
+
+.traço{
+    background-color: black;
+    width: 350px;
+    height: 5px;
+    margin-left: -10px;
+    display: block;
+}
+
+.area-form{
+    display: flex;
+}
+
+.titulos-form{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 20px;
+}
+
+.titulos-form h3{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.formulario{
+    padding: 20px;
+}
+.formulario input{
+    margin-left: -25px;
+    margin-bottom: 35px;
+    padding: 15px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    width: 150px;
+}
+
+.formulario input:hover{
+    background-color: rgb(225, 225, 225);
+}
+
+.formulario input::placeholder{
+    color: rgba(0, 0, 0, 0.628);
+}
+
+.final{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.area-calc{
+    outline: none;
+    text-decoration: none;
+    border: none;
+    background-color: black;
+    padding: 10px;
+    width: 250px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px 1px black;
+}
+.area-calc p{
+    color: rgb(226, 173, 27);
+    font-size: 20px;
+}
+.area-calc p:hover{
+    color: white;
+}
+
+.area-resultado{
+    width: 300px;
+    height: 150px;
+    background-color: black;
+    margin-top: 35px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 1px black;
+    color: rgb(226, 173, 27);
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
