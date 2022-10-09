@@ -25,6 +25,8 @@ function imc(){
             tipo = 'com obesidade grau II.';
         }else if(calculo <45){
             tipo = 'com obesidade grau III.';
+        }else if(calculo > 45{
+            tipo = 'com obesidade maior que grau III. Cuidado!';
         }
 
         resultado.textContent = `${nome}, seu resultado IMC é ${calculo} e você está ${tipo}`
