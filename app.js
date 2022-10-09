@@ -25,7 +25,7 @@ function imc(){
             tipo = 'com obesidade grau II.';
         }else if(calculo <45){
             tipo = 'com obesidade grau III.';
-        }else if(calculo > 45{
+        }else if(calculo >= 45{
             tipo = 'com obesidade maior que grau III. Cuidado!';
         }
 
